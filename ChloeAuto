@@ -15,9 +15,9 @@ import com.qualcomm.robotcore.util.Range;
 import com.qualcomm.robotcore.robot.Robot;
 import org.firstinspires.ftc.robotcore.external.JavaUtil;
 
-@Autonomous(name="TeamNameAuto", group="Linear Opmode")
+@Autonomous(name="ChloeAuto", group="Linear Opmode")
 
-public class TeamNameAuto extends LinearOpMode {
+public class ChloeAuto extends LinearOpMode {
     private ElapsedTime runtime = new ElapsedTime();
     private DcMotor backLeftM;
     private DcMotor backRightM;
