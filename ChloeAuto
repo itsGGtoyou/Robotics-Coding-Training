@@ -55,10 +55,10 @@ public class ChloeAuto extends LinearOpMode {
         waitForStart();
 drive(0.1, 8, 8, "straight");
 drive (0.1, 6, 6, "right");
-drive (0.1, -8, -8, "straight");
-drive (0.1, 8, 8, "right");
-drive (0.1, -8, -8, "straight");
-drive (0.1, 8, 8, "left");
+drive (0.1, -6, -6, "straight");
+drive (0.1, 6, 6, "right");
+drive (0.1, -6, -6, "straight");
+drive (0.1, 6, 6, "left");
     }
   private void reset(){
         backLeftM.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
