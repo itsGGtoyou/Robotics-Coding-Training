@@ -53,7 +53,7 @@ public class Nica Auto extends LinearOpMode {
          
         
         waitForStart();
-
+drive(0.2, 2, 2, "straight");
     }
   private void reset(){
         backLeftM.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
