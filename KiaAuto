@@ -54,6 +54,12 @@ public class KiaAuto extends LinearOpMode {
         
         waitForStart();
 
+drive(0.2, 12, 12, "straight");
+drive(0.2, 6, 6, "right");
+drive(0.2, -6, -6, "straight");
+drive(0.2, 6, 6, "right");
+drive(0.2, -6, -6, "straight");
+drive(0.2, 6, 6, "left");
     }
   private void reset(){
         backLeftM.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
